@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "CBT_Portal",
+  "short_name": "CBT_Portal",
+  "description": "",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  
+  "permissions": [
+    "http://23.253.238.249:3000/"
+  ],
+
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+  
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  
+  "sockets": {
+      "tcp": {
+            "connect": "*:80"
+      }
+  }
+}

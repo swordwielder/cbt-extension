@@ -1,0 +1,13 @@
+body {
+	background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#cbtlogo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
